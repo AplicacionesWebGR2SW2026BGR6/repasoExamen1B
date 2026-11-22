@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Café Bruma</title>
+</head>
+<body>
+    <header class=" header__fila">
+        <div class="contenedor flex flex--entre">
+            <span class="header__titulo">Café Bruma</span>
+            <nav>
+                <ul class="header__menu flex flex--entre">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Carta</a></li>
+                    <li><a href="index.html">Método</a></li>
+                    <li><a href="index.html">Reserva</a></li>
+                    <li><a href="index.html">Horario</a></li>
+                </ul>
+            </nav>
+            <a class="btn btn--degradado header__boton" href="index.html">Reservar mesa</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="contenedor flex flex--centro hero">
+                <article class="hero__texto">
+                <h1 class="hero__titulo">
+                    <span class="titulo-seccion__fina">El café <span class="texto-degradado titulo-bueno">bueno</span></span> 
+                    <span class="titulo-seccion__gruesa header__titulo__tuesta">se tuesta <span class="texto-degradado titulo-despacio">despacio</span></span>
+                    
+                </h1>
+                <p class="descripcion hero__parrafo">Granos de origen, tueste lento y una mesa para quedarte un rato. En Chapinero, Bogotá.</p>
+                <a class="btn btn--primario btn--grande hero__boton">Ver la carta</a>
+                </article>
+                <article>
+                    <img class="hero__imagen" src="https://picsum.photos/id/431/600/520" alt="Imagen del hero">
+                </article>
+            </div>
+        </section>
+        
+
+        <section class="seccion especialidades">
+            <div class="contenedor">
+                <h2 class="titulo-seccion especialidades__header">
+                    <span class="titulo-seccion__fina">Nuestras</span>
+                    <span class="titulo-seccion__gruesa">especialidades</span>
+                </h2>
+                <ul class="grilla grilla--4 especialidades__grilla">
+                    <li class="tarjeta especialidades__tarjeta">
+                        <img class="tarjeta__imagen especialidades__imagen" src="https://picsum.photos/id/63/540/360" alt="">
+                        <div class="tarjeta__cuerpo especialidades__cuerpo">
+                            <h3 class="tarjeta__titulo especialidades__titulo">Espresso de origen</h3>
+                            <p class="tarjeta__texto">Un shot corto, dulce y con cuerpo, de un solo lote de Huila.</p>
+                        </div>
+                    </li>
+                    <li class="tarjeta especialidades__tarjeta">
+                        <img class="tarjeta__imagen especialidades__imagen" src="https://picsum.photos/id/1060/540/360" alt="">
+                        <div class="tarjeta__cuerpo especialidades__cuerpo">
+                            <h3  class="tarjeta__titulo especialidades__titulo" >Filtrado V60</h3>
+                            <p class="tarjeta__texto">Una taza limpia y floral, con receta ajustada cada semana.</p>
+                        </div>
+                    </li>
+                    <li class="tarjeta especialidades__tarjeta">
+                        <img  class="tarjeta__imagen especialidades__imagen" src="https://picsum.photos/id/835/540/360" alt="">
+                        <div class="tarjeta__cuerpo especialidades__cuerpo">
+                            <h3 class="tarjeta__titulo especialidades__titulo">Pastelería del día</h3>
+                            <p class="tarjeta__texto">Hojaldres, tortas y panes que salen del horno en la mañana.</p>
+                        </div>
+                    </li>
+                    <li class="tarjeta especialidades__tarjeta">
+                        <img  class="tarjeta__imagen especialidades__imagen" src="https://picsum.photos/id/766/540/360" alt="">
+                        <div class="tarjeta__cuerpo especialidades__cuerpo">
+                            <h3  class="tarjeta__titulo especialidades__titulo">Tueste de la casa</h3>
+                            <p class="tarjeta__texto">Llévate el lote de la semana, molido al momento o en grano.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="seccion seccion--alt metodo">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">
+                    <span class="titulo-seccion__fina">Nuestro</span>
+                    <span class="titulo-seccion__gruesa">método</span>
+                </h2>
+
+                <div class="grilla grilla--4 metodo__grilla">
+                    <li class="tarjeta metodo__tarjeta">
+                        <div class="tarjeta__cuerpo metodo__cuerpo">
+                            <span class="titulo-seccion__gruesa texto-degradado metodo__numero">01</span>
+                            <h3  class="tarjeta__titulo metodo__titulo">Selección</h3>
+                            <p class="tarjeta__texto">Visitamos fincas aliadas y probamos cada lote antes de comprarlo.</p>
+                        </div>
+                    </li>
+                    <li class="tarjeta metodo__tarjeta">
+                        <div class="tarjeta__cuerpo metodo__cuerpo">
+                            <span class="titulo-seccion__gruesa texto-degradado metodo__numero">02</span>
+                            <h3  class="tarjeta__titulo metodo__titulo">Tueste</h3>
+                            <p class="tarjeta__texto">Una curva lenta, hecha a mano, para resaltar el origen de cada grano.</p>
+                        </div>
+                    </li>
+                    <li class="tarjeta metodo__tarjeta">
+                        <div class="tarjeta__cuerpo metodo__cuerpo">
+                            <span class="titulo-seccion__gruesa texto-degradado metodo__numero">03</span>
+                            <h3  class="tarjeta__titulo metodo__titulo">Descanso</h3>
+                            <p class="tarjeta__texto">El café reposa varios días antes de molerse, para que abra el aroma.</p>
+                        </div>
+                    </li>
+                    <li class="tarjeta metodo__tarjeta">
+                        <div class="tarjeta__cuerpo metodo__cuerpo">
+                            <span class="titulo-seccion__gruesa texto-degradado metodo__numero">04</span>
+                            <h3  class="tarjeta__titulo metodo__titulo">Preparación</h3>
+                            <p class="tarjeta__texto">Reseta ajustada taza a taza, con agua filtrada y molienda al momento.</p>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion reserva">
+            <div class="contenedor">
+                <h2 class="titulo-seccion reserva__header">
+                    <span class="titulo-seccion__fina">Reserva</span>
+                    <span class="titulo-seccion__gruesa">tu mesa</span>
+                </h2>
+                <div class="flex flex--entre reserva__flex">
+                    <article>
+                        <img class="reserva__imagen" src="https://picsum.photos/id/513/480/520" alt="">
+                    </article>
+                    <article class="flex flex--columna">
+                        <form class="formulario" method="post" action="index.html">
+                            <p class="descripcion campo--ancho"> Déjanos tu reserva y te confirmamos el horario por correo. Las mesas de la ventana se van rápido.</p>
+                            <div class="campo">
+                                <label class="campo__etiqueta" for="nombre">Nombre</label>
+                                <input class="campo__control" type="text" name="nombre" id="nombre" placeholder="Ana Pérez" 
+                                autocomplete="name" pattern="[A-Za-zÁÉÍÓÚÜáéíóúüÑñ ]{2,50}" 
+                                title="Nombre entre 2 y 50 caracteres, solo letras y espacios">
+                            </div>
+                            <div class="campo">
+                                <label class="campo__etiqueta" for="correo">Correo</label>
+                                <input class="campo__control" type="email" name="correo" id="correo" placeholder="ana@correo.com" 
+                                autocomplete="email">
+                            </div>
+                            <div class="campo">
+                                <label class="campo__etiqueta" for="fecha">Fecha</label>
+                                <input class="campo__control" type="date" name="fecha" id="fecha" min="2026-11-21">
+                            </div>
+                            <div class="campo">
+                                <label class="campo__etiqueta" for="hora">Hora</label>
+                                <select class="campo__control" name="hora" id="hora">
+                                        <option value="" disabled selected>Elige una hora</option>
+                                        <option value="08:00">08:00</option>
+                                        <option value="09:00">09:00</option>
+                                        <option value="10:00">10:00</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="12:00">12:00</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="17:00">17:00</option>
+                                </select>
+                            </div>
+
+                            <div class="campo">
+                                <label class="campo__etiqueta" for="personas">Personas</label>
+                                <select class="campo__control" name="personas" id="personas">
+                                        <option value="1personas">1 persona</option>
+                                        <option value="2personas" selected>2 personas</option>
+                                        <option value="3personas">3 personas</option>
+                                        <option value="4personas">4 personas</option>
+                                        <option value="5personas">5 personas</option>
+                                        <option value="6personas">6 personas</option>
+                                </select>
+                            </div>
+
+                            <div class="campo campo--ancho">
+                                <label class="campo__etiqueta" for="comentario">Comentario</label>  
+                                <textarea class="campo__control campo__control--area" name="comentario" id="comentario" placeholder="¿Alguna alergia o preferencia de mesa?"></textarea>
+                            </div>
+
+                            <div  class="campo campo--ancho">
+                                <button class="btn btn--primario reserva__boton" type="submit">Enviar reserva</button>
+                            </div>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="seccion--alt footer__arriba"> 
+            <div class="contenedor grilla footer__grilla">
+                <div class="flex flex--columna footer__tarjeta">
+                    <h3 class="footer__logo">Café Bruma</h3>
+                    <p>Café de especialidad, tueste propio y una mesa para quedarte un rato en Chapinero.</p>
+                </div>
+                <div class="flex flex--columna footer__tarjeta">
+                    <h3 class="footer__titulo">Enlaces</h3>
+                    <ul class="flex flex--columna footer__enlaces">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html">Carta</a></li>
+                        <li><a href="index.html">Método</a></li>
+                        <li><a href="index.html">Reserva</a></li>
+                        <li><a href="index.html">Horario</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex--columna footer__tarjeta">
+                    <h3 class="footer__titulo">Horario</h3>
+                    <p>Lunes a viernes, 8:00 a 18:00</p>
+                    <p>Sábados, 9:00 a 17:00</p>
+                    <p>+57 310 456 7890</p>
+                </div>
+                <ul class="flex footer__redes">
+                    <li> 
+                        <a class="footer__red flex flex--centro" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li> 
+                        <a class="footer__red flex flex--centro" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li> 
+                        <a class="footer__red flex flex--centro" href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="seccion footer__final">
+            <p class="texto-centro texto-suave">© 2026 Café Bruma. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
